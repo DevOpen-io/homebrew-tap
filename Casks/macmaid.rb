@@ -1,6 +1,6 @@
 cask "macmaid" do
   version "0.9.22"
-  sha256 "d6cbda55a0a896264b6815c2f39be512ed58018fdb43379aa3d647374bf20076"
+  sha256 "b46fb17a7fdd75418783941014c9f910351912cea36ff5c5c00a05b39ccfb453"
 
   url "https://github.com/DevOpen-io/MacMaid/releases/download/v0.9.22/MacMaid-v0.9.22-arm64.dmg"
   name "MacMaid"
@@ -10,4 +10,9 @@ cask "macmaid" do
 
   app "MacMaid.app"
   binary "#{appdir}/MacMaid.app/Contents/MacOS/macmaid-bin", target: "macmaid"
+
+  zap trash: [
+    "~/.config/macmaid",
+    "~/Library/Logs/MacMaid",
+  ]
 end
