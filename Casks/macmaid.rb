@@ -1,6 +1,6 @@
 cask "macmaid" do
   version "0.9.22"
-  sha256 "ba806c19a688052c5673442170518ba1d6fffa71c3cc24ff23456de4ecb80b66"
+  sha256 "7d4e42e1919cd1bbf08038a5ae0ab688e0ab847c01f60e39f025980d4ce38265"
 
   url "https://github.com/DevOpen-io/MacMaid/releases/download/v0.9.22/MacMaid-v0.9.22-arm64.dmg"
   name "MacMaid"
