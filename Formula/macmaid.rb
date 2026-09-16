@@ -1,7 +1,7 @@
 class Macmaid < Formula
-  version "0.11.2"
-  sha256 "bd96465c4609b24cbc860d9429e96562ee3a651955513440d775ea71f8726673"
-  url "https://github.com/DevOpen-io/MacMaid/releases/download/v0.11.2/MacMaid-0.11.2-arm64-cli.tar.gz"
+  version "0.11.4"
+  sha256 "d1c89e73410ae4c1cf32e7e9c078cc5be3dc43c89517cba66b31889f42760043"
+  url "https://github.com/DevOpen-io/MacMaid/releases/download/v0.11.4/MacMaid-0.11.4-arm64-cli.tar.gz"
   desc "Safe macOS cleanup, disk analysis and developer-tool maintenance"
   homepage "https://github.com/DevOpen-io/MacMaid"
   depends_on arch: :arm64
