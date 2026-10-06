@@ -1,7 +1,7 @@
 cask "macmaid" do
-  version "0.15.34"
-  sha256 "7d253f0d1143f13618114362727f0a7d0271a57c4906d8113078b9a3ca8df148"
-  url "https://github.com/DevOpen-io/MacMaid/releases/download/v0.15.34/MacMaid-0.15.34-arm64.dmg"
+  version "0.15.35"
+  sha256 "a898032a66bd5fcade5fdc0c65c67698c7914072e9a2c02b1adadf0205636228"
+  url "https://github.com/DevOpen-io/MacMaid/releases/download/v0.15.35/MacMaid-0.15.35-arm64.dmg"
   name "MacMaid"
   desc "Safe macOS cleanup, disk analysis and developer-tool maintenance"
   homepage "https://github.com/DevOpen-io/MacMaid"
